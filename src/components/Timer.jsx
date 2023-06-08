@@ -32,8 +32,8 @@ const Timer = () => {
       <div className="timer_inner">
         <h1>Stop Watch</h1>
         <h2>
-          {seconds < 10 ? "0" + seconds : seconds}:{" "}
-          {minutes < 10 ? "0" + minutes : minutes}
+          {minutes < 10 ? "0" + minutes : minutes}:
+          {seconds < 10 ? "0" + seconds : seconds}
         </h2>
         <div className="btn">
           <button className="btn1" onClick={restart}>
